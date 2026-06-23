@@ -1,0 +1,10 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(pnpm install *)",
+      "Bash(pnpm ls *)",
+      "Bash(npx tsc *)",
+      "Bash(pnpm --filter @cineai/shared add @aws-sdk/lib-dynamodb)"
+    ]
+  }
+}

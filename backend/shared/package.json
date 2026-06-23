@@ -1,0 +1,24 @@
+{
+  "name": "@cineai/shared",
+  "version": "0.0.1",
+  "private": true,
+  "scripts": {
+    "test": "vitest run",
+    "test:watch": "vitest"
+  },
+  "dependencies": {
+    "@anthropic-ai/sdk": "^0.32.0",
+    "@aws-lambda-powertools/logger": "^2.11.0",
+    "@aws-sdk/client-dynamodb": "^3.650.0",
+    "@aws-sdk/lib-dynamodb": "^3.1070.0",
+    "@aws-sdk/util-dynamodb": "^3.650.0",
+    "@middy/core": "^5.5.0",
+    "neverthrow": "^8.1.0"
+  },
+  "devDependencies": {
+    "@types/aws-lambda": "^8.10.145",
+    "@types/node": "^22.0.0",
+    "typescript": "^5.6.0",
+    "vitest": "^2.1.0"
+  }
+}

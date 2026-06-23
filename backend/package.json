@@ -1,0 +1,28 @@
+{
+  "name": "backend",
+  "version": "0.0.1",
+  "private": true,
+  "scripts": {
+    "test": "vitest run",
+    "test:watch": "vitest",
+    "generate-token": "tsx scripts/generate-token.ts",
+    "update-token": "tsx scripts/update-token.ts"
+  },
+  "dependencies": {
+    "@anthropic-ai/sdk": "^0.32.0",
+    "@aws-sdk/client-dynamodb": "^3.650.0",
+    "@aws-sdk/lib-dynamodb": "^3.1070.0",
+    "@aws-sdk/util-dynamodb": "^3.650.0",
+    "@cineai/shared": "workspace:*",
+    "@middy/core": "^5.5.0",
+    "@middy/http-json-body-parser": "^5.5.0",
+    "neverthrow": "^8.1.0"
+  },
+  "devDependencies": {
+    "@types/aws-lambda": "^8.10.145",
+    "@types/node": "^22.0.0",
+    "tsx": "^4.22.4",
+    "typescript": "^5.6.0",
+    "vitest": "^2.1.0"
+  }
+}

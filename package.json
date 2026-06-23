@@ -1,0 +1,12 @@
+{
+  "name": "cineai",
+  "private": true,
+  "scripts": {
+    "test:backend": "pnpm --filter backend test",
+    "test:frontend": "pnpm --filter frontend test"
+  },
+  "engines": {
+    "node": ">=20",
+    "pnpm": ">=9"
+  }
+}
