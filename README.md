@@ -4,7 +4,7 @@ A personalized AI movie companion delivered via magic link.
 
 Each hiring manager gets their own link — pre-loaded with their name, company logo, and a Claude persona that already knows who they are. The experience is built to feel like a knowledgeable friend who listens, not an algorithm serving metrics.
 
-**<a href="https://henry-molina.dev/#showcase" target="_blank" rel="noopener noreferrer">Watch the demo →</a>** · Live instances are sent personally with each application — there's no public demo link, by design.
+**<a href="https://henry-molina.dev/#showcase" target="_blank" rel="noopener noreferrer">Watch the demo →</a>** · Live instances are available on request — happy to send a personalized link — there's no public demo link, by design.
 
 ---
 
